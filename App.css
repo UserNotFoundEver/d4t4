@@ -1,0 +1,46 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    color: green;
+    background-color: black;
+    font-family: 'Courier New', monospace;
+}
+
+.navbar {
+    background-color: #111;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: green;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.main-content h1 {
+    font-size: 60px;
+    color: green;
+    text-shadow: 0 0 5px green;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #111;
+    color: green;
+    text-align: center;
+    padding: 10px 0;
+}
